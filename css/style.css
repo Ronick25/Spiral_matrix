@@ -1,0 +1,56 @@
+body {
+    background-image: url("../img/matrix.jpg");
+}
+.container {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 20%;
+}
+
+.container input {
+    width: 100%;
+    border-width: 2px;
+}
+
+.container button {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.btn-go {
+    background-color: #bbffb3;
+    color: #788d7a;
+    border: solid #788d7a 2px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+button.btn-go:hover {
+    background-color: #9fed95;
+    border: solid #687069 2px;
+    color: #687069;
+}
+
+.table {
+    padding: 50px;
+}
+
+td {
+    visibility: hidden;
+    background-color: #bbffb3;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: Courier;
+    width: 50px;
+    height: 50px;
+    color: #748677;
+    box-shadow: inset 0 0 0 3px #748677;;
+    border-radius: 10px;
+    padding: 10px;
+}
